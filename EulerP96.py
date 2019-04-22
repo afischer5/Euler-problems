@@ -1,11 +1,14 @@
 #Euler P96
 #Reads sudolu puzzles from a text file, solves them, then sums the top left 3 digit numbers for all puzzles
 
+
+
+#refactor whole thing for a list[][] rather than list [[],[],[],...]
 #define the solve a puzzle function that returns the first 3 digit number
 def solve(puzzle):
     for y in puzzle:
         for x in y:
-            possible numbers = [1,2,3,4,5,6,7,8,9]
+            possibleNumbers = [1,2,3,4,5,6,7,8,9]
             
 
 
